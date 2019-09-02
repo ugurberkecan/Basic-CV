@@ -1,0 +1,91 @@
+body {
+    background-image : linear-gradient(to top, #96fbc4 0%,#f9f586 100%);
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+
+    }
+.text {
+    padding: 5em 1.5em 2.5em 1.5em;
+}
+.card {
+    background: #fff;
+    display: grid;
+    box-shadow: 2px 2px 5px gray;
+    max-width: 600px;
+    border-radius: 25px;
+   
+}
+.avatar {
+    vertical-align: middle;
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    padding: 10px 10px 10px 10px;
+    top: 200px;
+    left: 400px;
+    
+}
+.main-title {
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    
+}
+.job {
+    margin-bottom: 100px;   
+    text-align: right;
+    color: green;
+    font-weight: bold;
+    }
+.about {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+   
+}
+.actions {
+    padding: 0px 10px 10px 100px;
+    
+}
+
+.avatar:hover
+{
+    
+    cursor: default;
+    transform: rotate(-30deg);
+    transition: all 0.2s ease-in-out 0s;
+    border: 0.1px solid yellow;
+}
+.actions img {
+    width: 70px;
+    height: 70px;
+    
+    
+}
+.actions .github:hover {
+    transform: rotate(360deg);
+    transition: all 0.2s ease-in-out 0s;
+    
+}
+.actions .cengturkey:hover{
+    transform: rotate(360deg);
+    transition: all 0.2s ease-in-out 0s;
+}
+.actions .telegram:hover{
+    transform: rotate(360deg);
+    transition: all 0.2s ease-in-out 0s;
+}
+button {
+    border: none;
+    background: none;
+    
+    
+    
+    }
+
