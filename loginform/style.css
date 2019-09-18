@@ -79,12 +79,13 @@ input[type=button]{
     margin-left: 35px;  
 }
 #business {
-    margin-bottom: -12px;    
+    margin-bottom: -9px;    
     width: 10%;
     margin-right: 2px;
 }
 textarea:focus, input:focus{
     outline: none;
+    border-color:#FF416C;
 }
 input[type="button"]:active{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
