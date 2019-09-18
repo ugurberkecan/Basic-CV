@@ -55,7 +55,7 @@ input[type=text],[type=password]{
 
 }
 input[placeholder]{
-    color: #FF416C;
+    color: rgb(15, 12, 13);
     font-weight: bold;
     
 }
@@ -87,6 +87,9 @@ textarea:focus, input:focus{
     outline: none;
     border-color:#FF416C;
 }
+input[type="button"]:hover{
+        color: white;
+}
 input[type="button"]:active{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     
@@ -94,6 +97,7 @@ input[type="button"]:active{
 h1:hover{
     font-weight: bold;
     cursor: pointer;
+    color : #FF416C;
 }
 .box img:hover{
     opacity: 0.5;
