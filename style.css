@@ -27,7 +27,7 @@ body {
     display: flex;
     position: absolute;
     padding: 10px 10px 10px 10px;
-    top: 200px;
+    top: 150px;
     left: 400px;
     
 }
@@ -84,8 +84,6 @@ body {
 button {
     border: none;
     background: none;
-    
-    
-    
-    }
+    outline: none;
+}
 
